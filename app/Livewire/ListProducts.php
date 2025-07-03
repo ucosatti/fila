@@ -30,6 +30,12 @@ class ListProducts extends Component implements HasForms, HasTable, HasActions
             ->columns([
                 TextColumn::make('name'),
                 TextColumn::make('email'),
+                TextColumn::make('id'),
+                TextColumn::make('email2'),
+                TextColumn::make('email3'),
+                TextColumn::make('email4'),
+                TextColumn::make('email5'),
+                TextColumn::make('email6'),
             ])
             ->recordActions([
                 Action::make('delete')
