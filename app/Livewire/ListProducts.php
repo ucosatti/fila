@@ -31,11 +31,14 @@ class ListProducts extends Component implements HasForms, HasTable, HasActions
                 TextColumn::make('name'),
                 TextColumn::make('email'),
                 TextColumn::make('id'),
-                TextColumn::make('email2'),
-                TextColumn::make('email3'),
-                TextColumn::make('email4'),
-                TextColumn::make('email5'),
-                TextColumn::make('email6'),
+                TextColumn::make('email2')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email3')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email4')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email5')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email6')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email7')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email8')->state("blah! blah! blah! blah!"),
+                TextColumn::make('email9')->state("blah! blah! blah! blah!"),
             ])
             ->recordActions([
                 Action::make('delete')
